@@ -1,0 +1,101 @@
+.text-orange {
+  color: rgba(201, 92, 24, 0.965);
+}
+
+/* product page scroll */
+.scroll {
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #f1f1f1;
+}
+
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  border: 1px solid #efe6e6;
+  box-shadow: 0 6px 10px rgba(25, 18, 18, 0.5);
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 16px;
+  height: 14px;
+  background-color: rgb(231, 67, 17);
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-navbar {
+  height: 4rem;
+
+  z-index: 100;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.15);
+}
+.slide-animation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  animation: slide-right 25s linear infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.slide-animation:hover {
+  animation-play-state: paused;
+}
+.max-width-600 {
+  max-width: 600px;
+}
+
+/* css for search button */
+.search-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 20px !important;
+  margin-right: 4px;
+}
+
+/* css for go to top */
+
+.go-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.go-to-top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4bdbd;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 6px 8px rgba(0, 3, 0, 0.2);
+}
+
+.go-to-top a:hover {
+  background-color: #22c68f;
+}
