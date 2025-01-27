@@ -1,9 +1,15 @@
-link to this app 
+
+
+#  Full stack E-commerce APP
 
 **userEmail: mahesh@gmail.com**
 **password: 4321**
 
-http://ecom-fronten.s3-website-ap-southeast-2.amazonaws.com/
+## 🌐 Live Demo
+[View Live Application](http://ecom-fronten.s3-website-ap-southeast-2.amazonaws.com/)
+
+
+
 
 # E-commerce Client Application
 
